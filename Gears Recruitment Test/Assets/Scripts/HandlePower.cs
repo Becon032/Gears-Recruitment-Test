@@ -42,6 +42,6 @@ public class HandlePower : MonoBehaviour
             poweredGear.RotateControl(distance);
         else if (dot < -.01f)
             poweredGear.RotateControl(-distance);
-        
+
     }
 }
